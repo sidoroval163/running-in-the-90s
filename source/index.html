@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="tetris_box">
+    <div class="tetris_display">
+      <div id="startLogo" class="startLogo"></div>
+      <canvas id="tutorial" width="300" height="605"></canvas>
+      <div class="info">
+        <div class="hiScore" id="hiScore">Hi-score:</div>
+        <div class="score" id="score">Score:</div>
+        <div class="lifes" id="lifes">Lifes:
+          <div id="life1" class="life"><img class="trueno" src="./images/86.svg"></div>
+          <div id="life2" class="life"><img class="trueno" src="./images/86.svg"></div>
+          <div id="life3" class="life"><img class="trueno" src="./images/86.svg"></div>
+          <div id="life4" class="life"><img class="trueno" src="./images/86.svg"></div>
+        </div>
+      </div>
+
+    </div>
+    <div class="buttons_block">
+      <div class="buttons_direction">
+        <div class="left_button" id="left">&larr; </div>
+        <div class="right_button" id="right">&rarr;</div>
+      </div>
+      <div id="startButton" class="buttons_strike">Start</div>
+      <div id="realStart" class="buttons_realStart">real Start</div>
+    </div>
+  </div>
+
+</body>
+<script src="script.js"></script>
+
+</html>
